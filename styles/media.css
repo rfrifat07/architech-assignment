@@ -1,0 +1,188 @@
+
+@media screen and (min-width:992px) {
+    .service-btn{
+        position: absolute;
+        left: -34px;
+        bottom: 72px;
+        padding: 28px 7px 27px;
+        font-size: 3rem;
+    }
+    .service-btn span{
+        font-size: 1rem;
+    }
+    .service-image{
+        position: relative;
+    }
+}
+/* =========
+    laptop
+============ */
+
+@media screen and (max-width: 991px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-toggle {
+        display: block;
+        margin-right: 10px;
+    }
+    .container{
+        overflow: initial;
+    }
+    .nav-menu{
+        text-align: center;
+        background-color: aliceblue;
+        height: 350px;
+        border-bottom-right-radius: 100px;
+       
+
+    }
+    .nav-menu li {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .nav-links {
+        position: absolute;
+        background-color: #FFF4E7;
+        left: -100%;
+        top: 100px;
+        width: 100%;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active {
+        left: 0;
+    }
+    .nav-links ul {
+        flex-direction: column;
+       
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .feature-description{
+        width: 100%;
+        text-align: center;
+    }
+    .feature-images {
+        width: 100%;
+    }
+    .acchivements{
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        margin: 20px auto;
+        gap: 10px;
+        width: 90%;
+    }
+    .acchive-box{
+        padding: 10px 15px;
+        margin: 10px;
+    }
+    .services{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .exceptional{
+        width: 100%;
+        text-align: center;
+       }
+    .all-services{
+        width: 100%;
+    }
+    .service-image{
+        width: 100%;
+    }
+    .some-fact{
+        text-align: center;
+        margin: 20px;
+    }
+    .fact-pera{
+        width: 100%;
+    }
+    footer{
+        margin: 20px auto;
+    }
+}
+
+/* =========
+    tablet
+============= */
+
+@media screen and (max-width: 767px) {
+    .acchivements{
+        grid-template-columns: repeat(2,250px);
+    }
+    .examples-area{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .examples-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .exceptional{
+        width: 100%;
+        text-align: center;
+       }
+}
+/*==============
+ small-devices
+================ */
+@media screen and (max-width: 440px) {
+    body{
+        overflow-x: hidden;
+    }
+    .company-logo{
+        font-size: 1.5rem
+    }
+    .container{
+        justify-content: space-between;
+        padding: 0;
+    }
+    .banner-title{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .banner-pera{
+        font-size: 16px;
+        padding: 10px;
+    }
+   .exceptional{
+    width: 100%;
+    text-align: center;
+   }
+    .feature-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-section{
+        width: 95%;
+    }
+    .acchivements{
+        grid-template-columns: repeat(1,250px);
+    }
+    .exmple-btn{
+        width: 100%;
+    }
+    .examples-area{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .examples-card {
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .sponser-detail h1{
+        font-size: 2rem;
+    }
+    .sponser-detail p{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-info{
+        padding: 10px;
+    }
+}

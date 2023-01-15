@@ -1,0 +1,375 @@
+/* =======
+    fonts
+========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+   width: 100vw;
+   overflow-x: hidden;
+}
+
+/* utility classes */
+.primary-btn{
+    padding: 20px 24px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+
+/* top banner */
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    overflow: hidden;
+    margin-inline: auto;
+    padding-inline:20px;
+}
+.company-logo{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu .hover-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #424242;
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color:#5353a2;
+}
+
+.nav-menu .ctn{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.nav-toggle {
+    display: none;
+}
+
+
+
+
+header{
+    background-color: #FFF4E7
+    ;
+}
+.bottom-section {
+   
+    width:80%;
+    margin: 0 auto;
+    
+}
+.banner{
+    text-align: center;
+}
+.banner-title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+.banner-pera{
+    font-size: 1rem;
+    padding: 15px 90px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* top banner */
+
+
+/* main-section */
+
+
+
+/* feature-section */
+.feature-section {
+    display: flex;
+    gap: 70px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 50px 10px;
+}
+.feature-images{
+ width: 50%;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 24px;
+ margin-bottom: 130px;
+}
+.feature-images img{
+    width: 100%;
+    transition: all 0.8s ease;
+}
+.feature-images img:hover{
+    transform: scale(1.05);
+}
+.feature-description{
+    width: 50%;
+}
+.feature-title{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.feature-pera{
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 30px;
+}
+/* =========
+feature-section 
+==============*/
+
+/*========
+ services 
+==========*/
+.services{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 54px;
+    margin-bottom: 130px;
+    
+}
+.all-services{
+    width: 50%;
+
+}
+.service-section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+    border-radius: 5px;
+}
+.service-section-pera{
+    margin: 24px 0 31px 0;
+}
+.service{
+    padding: 30px 30px 42px;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.service h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service p{
+    color: #727272;
+}
+.service-image{
+    width: 50%;
+    position: relative;
+}
+.service-image img{
+    width: 100%;
+
+}
+
+
+/* examples section */
+   .exmple-btn{
+    padding: 20px 30px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.bonus-section{
+    width: 85%;
+    margin: 0 auto;
+}
+.examples-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.examples-header a{
+    text-decoration: none;
+}
+.examples-area {
+    justify-content: space-between;
+    margin-block: 30px;
+    flex-wrap: wrap;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/assets/asset\ 35.jpeg);
+    background-size: cover;
+    transition: 0.2s ease-out;
+    border-radius: 8px;
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 10px #888;
+}
+
+.examples-card:nth-child(3) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.examples-card:nth-child(4) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(../images/assets/asset\ 37.jpeg);
+    background-size: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+/* examples section */
+
+/* fact-section */
+
+.some-fact{
+    margin-left:50px;
+}
+.fact-title{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.fact-pera{
+    color: #727272;
+    margin: 24px 0 100px 0;
+    width: 39%;
+}
+
+/* fact-section */
+
+/* accivement-section */
+.acchivements{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 185px;
+}
+
+.acchive-box {
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.8s ease;
+}
+.acchive-box:hover{
+    transform: scale(1.15);
+}
+.acchive-ammount{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+.acchive-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/* accivement-section */
+
+
+
+/* sponser-section */
+
+
+
+
+.sponser-detail{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponser-detail h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponser-detail p{
+    color: #727272;
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+
+
+.sponser-logo{
+    display: flex;
+    flex-wrap: wrap;
+   width: 85%;
+   margin: 0 auto;
+   justify-content: space-around;
+   
+}
+.sponser-logo img{
+    padding: 10px;
+}
+
+/* sponser-section */
+/* main-section */
+
+/* footer-section */
+
+footer{
+    margin-top: 140px;
+    margin-bottom: 216px;
+    width: 80%;
+    margin: 200px auto;
+}
+
+.footer-info{
+    background-color:#FFF4E7 ;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-radius: 8px;
+}
+.footer-info p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
+/* footer-section */
